@@ -1,0 +1,11 @@
+
+<div class= menuposition>
+<button mat-button [matMenuTriggerFor]="menu">Menu</button>
+<mat-menu #menu="matMenu">
+  <button mat-menu-item><a routerLink="">Static Images</a></button>
+  <button mat-menu-item><a routerLink="dynamic">Dynamic Images</a></button>
+</mat-menu>
+</div>
+
+
+<router-outlet></router-outlet>
